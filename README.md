@@ -15,32 +15,25 @@ Antes de iniciar, certifique-se de ter o Node.js e npm instalados em sua máquin
 
 Instalação
 Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/reactflix.git
+git clone https://github.com/rafaelmelo25/ReactFlix
 Navegue até o diretório do projeto:
-bash
-Copiar código
+
 cd reactflix
 Instale as dependências:
-bash
-Copiar código
+
 npm install
 Crie um arquivo .env na raiz do projeto e adicione sua chave de API do TMDB:
-makefile
-Copiar código
+
 REACT_APP_TMDB_API_KEY=YOUR_TMDB_API_KEY
+
 Executando o Projeto
 Para iniciar o servidor de desenvolvimento, execute:
 
-bash
-Copiar código
 npm start
 Abra http://localhost:3000 para ver o projeto no navegador.
 
 Estrutura do Projeto
 java
-Copiar código
 reactflix/
 ├── node_modules/
 ├── public/
@@ -60,7 +53,9 @@ reactflix/
 ├── .gitignore
 ├── package.json
 ├── README.md
+
 Descrição dos Arquivos
+
 src/App.js: Componente principal que organiza os componentes Banner, Navbar e Row.
 src/index.js: Ponto de entrada da aplicação React.
 src/requests.js: Arquivo contendo as URLs das requisições para a API do TMDB.
